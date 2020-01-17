@@ -20,12 +20,12 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency 'digest-sha3-patched', '~> 1.1'
-  spec.add_dependency 'ffi', '~> 1.0'
+  spec.add_dependency 'ffi'
   spec.add_dependency 'money-tree', '~> 0.10.0'
   spec.add_dependency 'rlp', '~> 0.7.3'
   spec.add_dependency 'scrypt', '~> 3.0.6'
 
-  spec.add_development_dependency 'pry', '~> 0.1'
-  spec.add_development_dependency 'rake', '~> 10.0'
-  spec.add_development_dependency 'rspec', '~> 3.0'
+  spec.add_development_dependency 'pry'
+  spec.add_development_dependency 'rake'
+  spec.add_development_dependency 'rspec'
 end
